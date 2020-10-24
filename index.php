@@ -35,13 +35,13 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
           <div class="content">
               <?php
               switch($nav){
-                  case 'SVGArt':
+                  case 'SVG_Text_Art':
                     require_once 'SVG/SVG_Text_Art.php';
                     break;
-                  case 'SVGAnim':
+                  case 'SVG_Animation':
                     require_once 'SVG/SVG_Animation.php';
                     break;
-                  case 'SVGShapes':
+                  case 'SVG_Shapes':
                     require_once 'SVG/SVG_Shapes.php';
                     break;  
                   case 'Mod3':
