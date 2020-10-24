@@ -26,6 +26,9 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                             <a href="index.php?nav=SVG_Animation">SVG Animation</a>
                         </div>
                         </div>
+                        <div class="github">
+                                <a href="https://github.com/LanceVaflor/webanimation-portfolio">GitHub</a>
+                        </div>        
                 </div>
           <br/>
           
