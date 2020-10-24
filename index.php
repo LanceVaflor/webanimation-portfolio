@@ -3,15 +3,12 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
 ?>
 <html>
         <head>
-                <title> Vaflor's Portfolio</title>
+                <title> Lance Vaflor's Portfolio</title>
                 <link rel="stylesheet" type="text/css" href="style.css">
         </head>
         
         <body>
         <div class="container">
-                <br/>
-                <h2> Lance Daimler E. Vaflor</h2>
-                <h2> BSIT3-A</h2>
                 <br/>
 
                     <div class="header">
