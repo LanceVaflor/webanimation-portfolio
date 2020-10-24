@@ -24,9 +24,9 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                         </div>
 
                         <div class="dropdown"><button class="dropbtn">SVG</button><div class="dropdown-content">
-                            <a href="index.php?nav=LT5.1">SVG Shapes</a>
-                            <a href="index.php?nav=LT6.1">SVG Text Art</a>
-                            <a href="index.php?nav=LT6.2">SVG Animation</a>
+                            <a href="index.php?nav=SVG_Shapes">SVG Shapes</a>
+                            <a href="index.php?nav=SVG_Text_Art">SVG Text Art</a>
+                            <a href="index.php?nav=SVG_Animation">SVG Animation</a>
                         </div>
                         </div>
                 </div>
