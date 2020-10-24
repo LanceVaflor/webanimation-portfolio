@@ -13,14 +13,14 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
 
                     <div class="header">
 
-                        <div class="dropdown"><button class="dropbtn">CSS</button><div class="dropdown-content">
+                        <div class="dropdown"><button class="dropbtn">Prelim</button><div class="dropdown-content">
                             <a href="index.php?nav=Mod2">Module 2</a>
                             <a href="index.php?nav=Mod3">Module 3</a>
                             <a href="index.php?nav=Mod4">Module 4</a>
                         </div>
                         </div>
 
-                        <div class="dropdown"><button class="dropbtn">SVG</button><div class="dropdown-content">
+                        <div class="dropdown"><button class="dropbtn">Midterm</button><div class="dropdown-content">
                             <a href="index.php?nav=SVG_Shapes">SVG Shapes</a>
                             <a href="index.php?nav=SVG_Text_Art">SVG Text Art</a>
                             <a href="index.php?nav=SVG_Animation">SVG Animation</a>
