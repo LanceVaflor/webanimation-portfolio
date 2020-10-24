@@ -7,7 +7,7 @@
     height: 100%;
     text-align: center;
 }
-.container{
+.container1{
    display: grid;
    grid-template-columns: auto auto auto;
    grid-row-gap: 50px;
@@ -22,7 +22,7 @@ h3{
     <body>
       <h2>Lance Daimler E. Vaflor</h2>
       <h2>BSIT3-A</h2>
-        <div class = "container">
+        <div class = "container1">
           <div>
           <svg width="200" height="300" fill="#00CCFF">
             <rect fill="#00CCFF" id="canvas_background" height="300"width="202" y="-1" x="-5"/>
