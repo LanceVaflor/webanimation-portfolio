@@ -1,0 +1,117 @@
+#container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.logo{
+    transform: scale(1.5) translate(543px, 200px);
+    position: absolute;
+}
+.cloud{
+    transform: scale(0.6) translate(-400px, -85px);
+    position: absolute;
+    animation: cloudmove 15s infinite linear;
+}
+.cloud2{
+    transform: scale(0.6) translate(800px, 100px);
+    position: absolute;
+    animation: cloudmove2 15s infinite linear;
+}
+.cloud3{
+    transform: scale(0.6) translate(1800px, -85px);
+    position: absolute;
+    animation: cloudmove3 15s infinite linear;
+}
+
+@keyframes cloudmove{
+    0%,100%{transform: translate(-400px, -85px) scale(0.6);}
+    50%{transform: translate(1900px, -85px) scale(0.6);}
+}
+
+@keyframes cloudmove2{
+   0%,100%{transform: translate(800px, 100px) scale(0.6);}
+    50%{transform: translate(1900px, 100px) scale(0.6);}
+}
+
+@keyframes cloudmove3{
+    0%,100%{transform: translate(1800px, -85px) scale(0.6);}
+    50%{transform: translate(-2000px, -85px) scale(0.6);}
+}
+.kudal{
+    transform: scale(0.7) translateX(-350px);
+    position: absolute;
+}
+
+.tulip{
+    transform: scale(0.3) translate(1700px,1300px);
+    position: absolute;
+}
+.tulip2{
+    transform: scale(0.3) translate(1900px,1300px);
+    position: absolute;
+    
+}
+
+.tulip3{
+    transform: scale(0.3) translate(1800px,1300px);
+    position: absolute;
+}
+
+.sunflower{
+    transform:scale(0.2) translate(100px,-1350px);
+    position: absolute;
+}
+
+.sunflower2{
+    transform:scale(0.1) translate(-100px,-1900px);
+    position: absolute;
+}
+
+.sunflower3{
+    transform:scale(0.1) translate(-1000px,-1900px);
+    position: absolute;
+}
+
+.rose{
+    transform:scale(0.3) translate(3200px,-1500px);
+    position: absolute;
+}
+
+.rose2{
+    transform:scale(0.3) translate(3500px,1500px);
+    position: absolute;
+}
+
+.rose3{
+    transform:scale(0.3) translate(3360px,1500px);
+    position: absolute;
+}
+
+
+
+.bush{
+    transform: translate(-800px, -210px) scale(0.5);
+    position: absolute;
+}
+
+.bush2{
+    transform: translate(800px, -210px) scale(0.5);
+    position: absolute;
+}
+
+.grass{
+    transform: scale(3) translate(200px,250px) ;
+    position: absolute;
+}
+.dirt{
+    transform: scale(0.7) translate(600px,1000px) ;
+    position: absolute;
+}
