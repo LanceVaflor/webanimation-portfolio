@@ -24,7 +24,7 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                             <a href="index.php?nav=SVG_Shapes">SVG Shapes</a>
                             <a href="index.php?nav=SVG_Text_Art">SVG Text Art</a>
                             <a href="index.php?nav=SVG_Animation">SVG Animation</a>
-                            <a href="index.php?nav="FLOOM">CLE Midterm</a>    
+                            <a href="index.php?nav=FLOOM">CLE Midterm</a>    
                         </div>
                         </div>
                         <div class="github">
