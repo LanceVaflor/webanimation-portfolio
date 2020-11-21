@@ -24,6 +24,7 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                             <a href="index.php?nav=SVG_Shapes">SVG Shapes</a>
                             <a href="index.php?nav=SVG_Text_Art">SVG Text Art</a>
                             <a href="index.php?nav=SVG_Animation">SVG Animation</a>
+                            <a href="index.php?nav="CLE_Midterm">CLE Midterm</a>    
                         </div>
                         </div>
                         <div class="github">
@@ -44,6 +45,9 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                   case 'SVG_Shapes':
                     require_once 'SVG/SVG_Shapes.php';
                     break;  
+                   case 'CLE_Midterm':
+                      require_once 'SVG/FLOOM/index.php';
+                     break;          
                   case 'Mod3':
                     require_once 'CSS/Module3.php';
                     break;
