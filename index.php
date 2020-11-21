@@ -46,7 +46,7 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                     require_once 'SVG/SVG_Shapes.php';
                     break;  
                    case 'CLE_Midterm':
-                      require_once 'SVG/FLOOM/index.php';
+                      require_once 'SVG/FLOOM/cle.php';
                      break;          
                   case 'Mod3':
                     require_once 'CSS/Module3.php';
