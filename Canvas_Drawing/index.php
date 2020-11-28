@@ -1,9 +1,13 @@
 <html>
     <head>
         <title>Graphical Arts</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
+        <div class="github">
+                                <a href="https://github.com/LanceVaflor/webanimation-portfolio">GitHub</a>
+                        </div>        
         <h2><center>HTML5 Canvas</center></h2>
         <center><canvas id="deathlyhallows" width="200" height="200"></canvas>
         <canvas id="sacrifice" width="200" height="200"></canvas>
