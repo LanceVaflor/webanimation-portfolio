@@ -27,7 +27,7 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                             <a href="FLOOM/index.php"target="_blank">CLE Midterm</a>    
                         </div>       
                         </div>
-                            <div class="dropdown><button class="dropbtn">Endterm</button><div class="dropdown-content">
+                            <div class="dropdown"><button class="dropbtn">Endterm</button><div class="dropdown-content">
                                  <a href="Canvas_Drawing/index.php"target="_blank>LT 7.1</a>
                         </div>
                         </div>
