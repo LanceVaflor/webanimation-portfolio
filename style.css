@@ -1,0 +1,154 @@
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    min-height: 768px;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    min-height: 768px;
+}
+
+.content{
+    margin: 0 auto;
+    width: auto;
+    min-width: 1200px;
+    height: auto;
+    min-height: 768px;
+    background:#000000;
+    padding: 50px;
+}
+.home{
+  background-color: #F1CD51;
+  color: #FB1704;
+  width: 110px;
+  font-size: 16px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 16px;
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.home_content{
+  font-size: 160px;
+  color: #F1CD51;
+  
+}
+
+.deathstar{
+ animation: float 2s linear infinite;
+ position: absolute;
+ bottom: -500px;
+ left: 100px;
+ 
+}
+@keyframes float {
+  from { transform: translate(0px,-840px);}
+  50% {transform: translate(0px, -760px);}
+  65% {transform: translate(0px, -780px);}
+  to { transform: translate(0px, -840px);}
+}
+
+.watchmen{
+  transform: translate(500px, -1100px);
+  position: absolute;
+  z-index: -0.1;
+  
+}
+.about{
+  background-color: #F1CD51;
+  color: #FB1704;
+  width: 100px;
+  font-size: 16px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 16px;
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+ 
+}
+
+.about_content{
+  font-size: 30px;
+  color: #F1CD51;
+}
+.github{
+    background-color: #F1CD51;;
+    color: red;
+    width: 100px;
+    font-size: 16px;
+    padding: 16px;
+    border: 1px black;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+ 
+
+.dropbtn {
+    background-color: #F1CD51;
+    color: #FB1704;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+  }
+
+  .dropdown {
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+  }
+
+  .dropdown-content a {
+    color: #F39B9B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: black;}
+  .home a{text-decoration: none;
+          color: #FB1704;} 
+  .about a{text-decoration: none;} 
+  .github a{text-decoration: none;} 
