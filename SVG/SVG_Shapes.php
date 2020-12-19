@@ -16,6 +16,7 @@
 h3{
     font-family: 'Courier New', Courier;
     font-weight: bold;
+    color: #F1CD51;
 }
         </style>
     </head>
