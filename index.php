@@ -71,7 +71,7 @@ $nav = (isset($_GET['nav']) && $_GET['nav'] != '') ? $_GET['nav']: '';
                     require_once 'CSS/Module4.php';
                     break;
                   default:
-                    require_once 'index.php';  
+                    require_once 'home.php';  
               }
               ?>
           </div>
