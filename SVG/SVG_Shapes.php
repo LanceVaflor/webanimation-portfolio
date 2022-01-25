@@ -223,7 +223,7 @@ h3{
               <line x1="50" y1="189" x2="80" y2="189" stroke-width="1" stroke="black"/>
            </g>
           </svg>
-          <h3>Cirle, Line and Rectangle</h3> 
+          <h3>Circle, Line and Rectangle</h3> 
         </div>
         <div>
           <svg width="200" height="300" style="background-color:#434c5e">
@@ -274,7 +274,7 @@ h3{
               
             </g>
           </svg> 
-          <h3>Cirle,<br> Rectangle, Polyline,<br> Polygon and Ellipse</h3> 
+          <h3>Circle,<br> Rectangle, Polyline,<br> Polygon and Ellipse</h3> 
         </div>
       </div>  
     </body>
